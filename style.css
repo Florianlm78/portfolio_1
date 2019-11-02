@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*---------------- Néons -----------------*/
+
+
+.neon {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    padding: 0 20px;
+    font-size: 3, 5em;
+    color: #ffffff;
+    text-shadow: 0 0 20px #ffa500;
+    text-align: center;
+}
+
+.neon:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 20px;
+    z-index: -1;
+    color: #ffa500;
+    filter: blur(15px);
+}
+
+.neon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffa500;
+    z-index: -2;
+    opacity: .5;
+    filter: blur(40px);
+}
+
+/*---------------- Présentation Florian -----------------*/
+
+.presentationFlorian {
+    width: 100%;
+    height: 800px;
+    background-color: #010f29;
+    padding: 0 75px;
+}
+
+.neonPresentation {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+
+}
+
+.mx-auto {
+    float: right;
+    width: 408px;
+    height: 508px;
+    margin-top: 100px;
+
+}
+
+.textPresentation {
+    float: left;
+    margin-top: 100px;
+    width: 550px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-justify {
+    margin-top: 25px;
+}
+
+
+/*---------------- Footer -----------------*/
+
+footer {
+    width: 100%;
+    height: 270px;
+    background-color: #161718;
+}
+
+h2 {
+    padding-top: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+.enveloppe {
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin: 40px 0 0 285px;
+}
+
+.linkedin {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 40px 200px 0 200px;
+}
+
+.github {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 40px;
+}
+
+.droits {
+    color: #4e5457;
+    margin: 160px 0 0 25px;
+
+}

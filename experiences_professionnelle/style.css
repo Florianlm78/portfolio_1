@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/*---------------- CV -----------------*/
+
+.cv {
+    width: 100%;
+    height: 1950px;
+    background-color: #010f29;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    padding: 50px 0 25px 0;
+    margin: 0 0 0 50px;
+}
+
+p {
+    margin: 50px 0 50px 50px;
+}
+
+.texteGauche,
+.texteDroite {
+    float: left;
+}
+
+.deux {
+    padding-left: 105px;
+}
+
+.trois {
+    padding-left: 197px;
+}
+
+.quatre {
+    padding-left: 13px;
+}
+
+.cinq {
+    padding-left: 51px;
+}
+
+.six {
+    padding-left: 28px;
+}
+
+.sept {
+    padding-left: 90px;
+}
+
+.huit {
+    padding-left: 63px;
+}
+
+
+
+/*---------------- Footer -----------------*/
+
+footer {
+    width: 100%;
+    height: 280px;
+    background-color: #161718;
+}
+
+.textContact {
+    padding-top: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+.enveloppe {
+    float: left;
+    height: 60px;
+    width: 80px;
+    margin: 30px 0 0 305px;
+}
+
+.linkedin {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 30px 200px 0 200px;
+}
+
+.github {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+}
+
+.droits {
+    color: #4e5457;
+    margin: 160px 0 0 25px;
+
+}
